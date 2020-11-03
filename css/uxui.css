@@ -33,6 +33,7 @@ ul { list-style: none; }
 .right { float: right; }
 
 .air { margin-top: 120px; }
+.selfie { position: fixed; bottom: 0; right: 0;}
 
 /* typography */
 h1, h2, h3, h4 { margin: 0; letter-spacing: -0.05em; line-height: 1em; }
