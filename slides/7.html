@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UX and UI presentation</title>
+  <meta name="description" content="UX and UI presentation">
+  <meta name="author" content="Markus Bjorklund">
+  <link rel="stylesheet" href="../css/uxui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#jepo-bo").hide();
+      $("#jepo-bo").fadeTo(1000, 0.5);
+    });
+  </script>
+</head>
+
+<body>
+  <video autoplay muted id="video">
+    <source src="../videos/black.mp4" type="video/mp4">
+  </video>
+
+  <div class="slide bottom darkbackground">
+    <h1 class="small thin" id="jepo-bo">... let's MacGyver this real quick ...</h1>
+  </div>
+
+  <!-- video attribution -->
+  <div class="attribution">
+    <a href="http://www.videezy.com/" class="thin">Stock videos by Videezy!</a>
+  </div>
+
+  <!-- navigate slides -->
+  <a id="prevLink" href="6.html">Back</a>
+  <a id="nextLink" href="8.html">Next</a>
+  <script src="../js/scripts.js"></script>
+
+  <!-- info -->
+  <p id="footer">This is Markus Bjorklunds presentation for the course in UX (user experience design) and UI (user
+    interface design) that is part of the studies in Road to Software Engineering offered by Centria University of
+    Applied Sciences in 2020.</p>
+</body>
+
+</html>

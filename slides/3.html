@@ -1,0 +1,42 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UX and UI presentation</title>
+  <meta name="description" content="UX and UI presentation">
+  <meta name="author" content="Markus Bjorklund">
+  <link rel="stylesheet" href="../css/uxui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#list").hide();
+      $("#list").fadeIn(1000);
+    });
+  </script>
+</head>
+
+<body>
+  <img src="../css/backgrounds/gradient_orange.jpg" id="image">
+  <div class="slide top darkbackground">
+  <h1 class="big bold">When do I use them?</h1>
+  <ul id="list">
+    <li class="standard light"><i class="fa fa-map-marker"></i> Out walking the dogs</li>
+    <li class="standard light"><i class="fa fa-map-marker"></i> While doing yardwork</li>
+    <li class="standard light"><i class="fa fa-map-marker"></i> Riding the bicycle</li>
+  </ul>
+  </div>
+
+  <!-- navigate slides -->
+  <a id="prevLink" href="2.html">Back</a>
+  <a id="nextLink" href="4.html">Next</a>
+  <script src="../js/scripts.js"></script>
+
+  <!-- info -->
+  <p id="footer">This is Markus Bjorklunds presentation for the course in UX (user experience design) and UI (user
+    interface design) that is part of the studies in Road to Software Engineering offered by Centria University of
+    Applied Sciences in 2020.</p>
+</body>
+
+</html>

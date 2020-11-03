@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>UX and UI presentation</title>
+  <meta name="description" content="UX and UI presentation">
+  <meta name="author" content="Markus Bjorklund">
+  <link rel="stylesheet" href="../css/uxui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#lead-in").hide();
+      $("#lead-in").fadeTo(1000, 0.5);
+    });
+  </script>
+</head>
+
+<body>
+  <img src="../css/backgrounds/gradient_orange_first.jpg" id="image">
+  <div class="slide bottom darkbackground">
+    <h3 class="small thin translucent" id="lead-in">A presentation about UX and UI and how to improve my personal</h3>
+    <h1 class="giant black">Bluetooth Headphones</h1>
+  </div>
+
+  <!-- navigate slides -->
+  <a id="prevLink" href="../index.html">Back</a>
+  <a id="nextLink" href="2.html">Next</a>
+  <script src="../js/scripts.js"></script>
+
+  <!-- info -->
+  <p id="footer">This is Markus Bjorklunds presentation for the course in UX (user experience design) and UI (user
+    interface design) that is part of the studies in Road to Software Engineering offered by Centria University of
+    Applied Sciences in 2020.</p>
+</body>
+
+</html>

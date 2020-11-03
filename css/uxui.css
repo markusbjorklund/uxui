@@ -1,0 +1,97 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+/* basics */
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 100%;
+}
+
+ul { list-style: none; }
+
+/* layout */
+.slide {
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
+
+.top { top: 0; }
+.bottom { bottom: 0; }
+
+.slide.top h1 { padding: 100px 0 0 100px; }
+.slide.top ul, .slide.top p { padding-left: 100px; }
+
+.slide.bottom h1 { padding: 0 0 100px 100px; }
+.slide.bottom h3 {padding-left: 120px; }
+
+.lightbackground { color: #000; } 
+.darkbackground { color: #fff; }
+
+.left { float: left; }
+.right { float: right; }
+
+.air { margin-top: 120px; }
+
+/* typography */
+h1, h2, h3, h4 { margin: 0; letter-spacing: -0.05em; line-height: 1em; }
+p { margin: 25px 100px 0 0; letter-spacing: -0.05em; line-height: 1.2em; }
+
+.giant { font-size: 12em; }
+.big { font-size: 10em; }
+.standard { font-size: 5em; }
+.small { font-size: 2em; }
+
+.thin { font-weight: 100; }
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.medium { font-weight: 500; }
+.bold { font-weight: 700; }
+.black { font-weight: 900; }
+
+.done { 
+  color: transparent;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+/* fullscreen image */
+#image {
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* fullscreen video */
+#video {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* video attribution */
+.attribution {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+}
+
+.attribution a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.2;
+}
+
+
+/* hide before load */
+.hide { display: none; }
+
+/* hide navigation and footer */
+#prevLink, #nextLink, #footer { display: none; }
