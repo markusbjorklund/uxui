@@ -89,9 +89,5 @@ p { margin: 25px 100px 0 0; letter-spacing: -0.05em; line-height: 1.2em; }
   opacity: 0.2;
 }
 
-
-/* hide before load */
-.hide { display: none; }
-
 /* hide navigation and footer */
 #prevLink, #nextLink, #footer { display: none; }
